@@ -1,0 +1,92 @@
+body {
+    background-color: #000;
+    color: rgb(255, 255, 255);
+    font-family: 'Poppins', sans-serif;
+    background-image: url('/KidKoders/components/images/perfilbackground.jpg');
+    background-size: cover;
+    padding: 20px;
+    align-items: center;
+}
+.profile-card {
+  background-color: #14141400;
+  border-radius: 50%;
+  padding: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  text-decoration: none;
+  margin-top: 90px;
+}
+.profile-name {
+  font-size: 22px;
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+}
+.profile-img {
+  border-radius: 50%;
+  max-width: 50%;
+  max-height: 50%;
+  margin-bottom: 10px;
+}
+.profile-container:hover .profile-name {
+  color: white;
+  text-decoration: none;
+
+
+}
+.profile-container:hover .profile-img {
+  border: 2px solid white;
+  text-decoration: none;
+}
+
+h1{
+    color: rgba(255, 255, 255, 0.895);
+    text-align: center;
+    padding: 20px;
+    margin-top: 100px;
+}
+
+.navbar-nav .nav-link:hover {
+    color: blue;
+  }
+
+  /* Media Queries */
+@media screen and (max-width: 768px) {
+  .profile-img {
+      max-width: 70%;
+      max-height: 70%;
+  }
+}
+
+
+@media screen and (max-width: 480px) {
+  .container .row {
+    display: flex;
+    flex-wrap: nowrap; 
+    overflow-x: auto; 
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .profile-card {
+    margin-top: 50px;
+    margin-right: 10px; 
+    flex: 0 0 auto; 
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .container .row {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto; 
+    -webkit-overflow-scrolling: touch; 
+  }
+
+  .profile-card {
+    margin-top: 50px;
+    margin-right: 10px;
+    flex: 0 0 auto; 
+    width: 200px; 
+  }
+}
+

@@ -1,0 +1,149 @@
+#mbody{
+    background-color: #012840;
+    color: rgb(34, 34, 34);
+    font-family: poppinsregular;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-image: url('/KidKoders/components/images/su.png');
+    background-position: center;
+    background-size: cover;
+}
+
+#mheader{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #012840;
+    width: 100%;
+    padding: 25px; 
+    border-radius: 10px; 
+    
+}
+
+.card {
+    background-color: #3e00e7a3;
+    color: white;
+    border-radius: 50px; 
+    border: #005b94;
+    
+  
+}
+
+#titulo h1{
+    flex-direction: column;
+    line-height: 30px;
+}
+
+
+li{
+    display: inline-block;
+    margin: 20px;
+}
+
+a{
+    color: rgb(255, 255, 255);
+}
+
+a:hover{
+    color: #0FB2F2;
+    transition: 0.3s all;
+}
+
+#inscreva-se-btn{
+    border: 2px solid #3DF2E0;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+#inscreva-se-btn:hover{
+    background-color: #0FB2F2;
+    color: white;
+}
+
+h1{
+    font-weight: 200;
+    color: white;
+}
+
+
+h2{
+    font-size: 56px;
+    line-height: 10px;
+    font-family: poppinsmedium;
+    color: #0FB2F2;
+}
+
+span{
+    color: white;
+}
+
+p{
+    line-height: 20px;
+    max-width: 500px;
+    font-family: poppinslight;
+}
+
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+form [type="submit"]{
+    height: 50px;
+    width: 50%;
+    background-color: rgb(248,224,12);
+    color: white;
+    font-weight: bold;
+}
+form [type="submit"]:hover{
+    cursor: pointer;
+}
+
+input{
+    margin-top: 20px;
+    height: 20px;
+    padding: 15px;
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
+}
+
+#kid{
+    font-weight: 200;    
+    color: #3DF2E0;
+}
+
+::-webkit-scrollbar{
+    width: 15px;
+    }
+    
+    ::-webkit-scrollbar-track{
+    background: #005b94;
+    }
+    
+    ::-webkit-scrollbar-thumb{
+    background: linear-gradient(#b300ff, #0056f5);
+    border-radius: 20px;
+    }
+    
+    #koders{
+        font-weight: 200;
+        color: white;
+    }
+
+/* Adicione estas regras de estilo ao seu arquivo de estilo CSS (cursos.css) */
+
+.card-img-top {
+    max-width: 100%; /* Define uma largura máxima para a imagem */
+    height: auto; /* Permite que a altura da imagem seja ajustada automaticamente para manter a proporção */
+}
+
+@media (max-width: 576px) {
+    .card-img-top {
+      max-width: 100%; /* Set max-width to 100% for smaller screens */
+    }
+  }
+  
